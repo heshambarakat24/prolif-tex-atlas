@@ -1,0 +1,36 @@
+# Input and intermediate data - never committed
+data/
+*.h5ad
+*.rds
+*.mtx
+*.loom
+counts.mtx
+barcodes.tsv
+features.tsv
+
+# R session artefacts
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Output folders written by the scripts
+Residual_pipeline_outputs/
+Programme_Module_Scoring_*/
+Spatial_pressure_subtypes*/
+tumour_only_scvi_outputs/
