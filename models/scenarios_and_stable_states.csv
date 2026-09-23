@@ -1,0 +1,9 @@
+scenario,name,perturbation,n_stable_states,TCR,CD28,PD1,CTLA4,TNFRSF9,TNFa,IFNg,TGFb,JAKSTAT3_Pressure,Low_Energy,Replication_Stress_Input,SS_Exhaustion,SS_AKT,SS_TORC1,SS_cMYC,SS_Metabolic_Competence,SS_E2F1,SS_RB,SS_G1S_Entry,SS_Replication_Stress,SS_ATR,SS_CHK1,SS_Wee1,SS_Cdc25C,SS_CyclinB,SS_CDK1,SS_FoxM1,SS_Plk1,SS_Mitotic_Commitment,SS_Proliferation
+0,resting baseline simulation,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,0,,1,0,,,,,,,,,,0,0
+1,activated non-exhausted CD8-like simulation,,,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,,1,0,,,,,,1,1,1,1,1
+2,Prolif-Tex-like simulation,,,1,1,1,0,1,0,0,0,0,0,0,1,1,1,1,1,1,,1,0,0,0,0,1,1,1,1,1,1,1
+3,NonProlif-Tex-like inflammatory/cytokine-pressure simulation,,,1,1,1,1,0,1,1,1,1,0,0,1,,0,0,0,0,1,0,,,,,,,0,0,0,0,0
+4,checkpoint-restrained Prolif-Tex-like simulation,,,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1,1,1,,1,1,1,1,1,0,,0,0,0,0,0
+5,JAKSTAT3-pressure perturbation of the Prolif-Tex-like state,,1,1,1,1,0,1,0,0,0,1,0,0,1,1,1,0,0,0,,0,,,,,,,0,0,0,0,0
+6,TNFRSF9-withdrawal perturbation of the Prolif-Tex-like state,,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0
+7,CHK1-knockout perturbation of the checkpoint-restrained Prolif-Tex-like state,CHK1 knocked out (forced OFF),1,1,1,1,0,1,0,0,0,0,0,1,1,1,1,1,1,1,,1,1,1,0,0,1,1,1,1,1,1,1

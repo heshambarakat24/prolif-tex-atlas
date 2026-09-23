@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Analysis code and Boolean models: proliferative heterogeneity within tumour-infiltrating exhausted CD8+ T cells"
+abstract: >-
+  Analysis scripts, GINsim network files and prior-knowledge-network curation
+  tables accompanying a PhD thesis on proliferative heterogeneity within
+  tumour-infiltrating exhausted CD8+ T cells across a pan-cancer single-cell
+  atlas.
+type: software
+authors:
+  - family-names: Barakat
+    given-names: Hesham
+    affiliation: "University of Rome Tor Vergata"
+license: MIT
+version: "1.0"
+date-released: "2026-09-25"
+keywords:
+  - single-cell RNA-seq
+  - CD8 T cells
+  - T-cell exhaustion
+  - Boolean modelling
+  - tumour immunology
